@@ -1,7 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .container {
     display: grid;
-    grid-template-columns: 300px 1500px;
-    grid-template-rows: 300px 300px 300px 300px;
+    grid-template-columns: 200px 1000px;
+    grid-template-rows: 200px 200px 200px 200px;
 }
 
 .sidebar, 
