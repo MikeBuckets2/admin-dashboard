@@ -9,3 +9,7 @@
 .main-content {
     border: 1px solid black;
 }
+
+.sidebar {
+    grid-row: 1 / 5;
+}
