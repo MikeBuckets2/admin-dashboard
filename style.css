@@ -19,3 +19,8 @@
     grid-row: 2 / 5;
     background-color: lightgray;
 }
+
+.nav {
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr;
+}
