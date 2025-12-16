@@ -24,6 +24,17 @@
     display: grid;
     grid-template-rows: 1fr 3fr 1fr;
     color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav ul {
+    display: grid;
+    gap: 10px;
+}
+
+.nav li {
+    list-style-type: none;
 }
 
 .dash {
