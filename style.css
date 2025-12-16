@@ -13,3 +13,7 @@
 .sidebar {
     grid-row: 1 / 5;
 }
+
+.main-content {
+    grid-row: 2 / 5;
+}
