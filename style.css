@@ -131,3 +131,19 @@ button {
     display: grid;
     align-items: end;
 }
+
+.users {
+    background-color: white;
+    margin-top: 10px;
+}
+
+.trending {
+    display: grid;
+    grid-template-rows: 1fr 6fr 2fr;
+    margin-right: 15px;
+}
+
+.trending-items {
+    display: grid;
+    align-items: end;
+}
