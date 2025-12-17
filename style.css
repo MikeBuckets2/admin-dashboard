@@ -20,6 +20,7 @@
     background-color: #e4e4e4;
     display: grid;
     grid-template-columns: 3fr 1fr;
+    gap: 15px;
 }
 
 .nav {
@@ -104,4 +105,27 @@ button {
 .announcements {
     display: grid;
     grid-template-rows: 1fr 3fr 3fr 3fr;
+    margin-right: 15px;
+}
+
+.announcements-wrapper {
+    background-color: white;
+    margin-top: 25px;
+}
+
+.first-announcement, 
+.second-announcement {
+    border-bottom: 1px solid gray;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.third-announcement {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.announcements-header {
+    display: grid;
+    align-items: end;
 }
