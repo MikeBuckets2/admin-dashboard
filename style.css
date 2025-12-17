@@ -40,3 +40,8 @@
 .dash {
     font-size: 24px;
 }
+
+.header {
+    display: grid;
+    grid-template: 1fr 1fr / 3fr 1fr;
+}
