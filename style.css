@@ -55,3 +55,17 @@
     margin-top: 25px;
     margin-left: 50px;
 }
+
+.profile {
+    margin-top: 25px;
+}
+
+.welcome {
+    display: grid;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.welcome span {
+    margin-top: -30px;
+}
