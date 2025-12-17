@@ -18,6 +18,7 @@
 .main-content {
     grid-row: 2 / 5;
     background-color: #e4e4e4;
+    grid-template-columns: 3fr 1fr;
 }
 
 .nav {
