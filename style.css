@@ -91,6 +91,8 @@ button {
 
 .projects-header {
     grid-column: 1 / 3;
+    display: grid;
+    align-items: end;
 }
 
 .cards {
