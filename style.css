@@ -42,6 +42,9 @@
 
 .dash {
     font-size: 24px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .header {
@@ -206,4 +209,10 @@ li {
     display: inline-flex;
     gap: 10px;
     align-items: center;
+}
+
+.dash svg {
+    height: 24px;
+    width: 24px;
+    color: white;
 }
