@@ -171,3 +171,9 @@ h3 {
 .users {
     font-size: 12px;
 }
+
+.projects-header, 
+.announcements-header, 
+.trending-items {
+    font-weight: bold;
+}
