@@ -113,6 +113,7 @@ button {
     margin-top: 15px;
     grid-row: 2 / 4;
     border-radius: 5px;
+    align-content: center;
 }
 
 .first-announcement, 
@@ -120,11 +121,13 @@ button {
     border-bottom: 1px solid gray;
     margin-left: 20px;
     margin-right: 20px;
+    padding: 8px;
 }
 
 .third-announcement {
     margin-left: 20px;
     margin-right: 20px;
+    padding: 8px;
 }
 
 .announcements-header {
