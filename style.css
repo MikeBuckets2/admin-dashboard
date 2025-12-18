@@ -164,7 +164,7 @@ button {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
 }
 
 span {
@@ -268,4 +268,22 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.first-user, 
+.second-user, 
+.third-user, 
+.fourth-user {
+    display: inline-flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.users img {
+    height: 24px;
+    width: 24px;
+    border-radius: 12px;
+    background-color: black;
 }
